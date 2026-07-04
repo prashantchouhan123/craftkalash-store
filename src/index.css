@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Premium Wood Color Palette (Bold Typography Theme) */
+  --color-wood-950: #3E2723; /* Deep Dark Coffee */
+  --color-wood-900: #5D4037; /* Warm Medium-Dark Coffee */
+  --color-wood-800: #6D4C41; /* Terracotta/Medium Warm Brown */
+  --color-wood-700: #8D6E63; /* Muted Wood */
+  --color-wood-600: #A1887F; /* Light Wood */
+  --color-wood-500: #BCAAA4; /* Sand Wood */
+  --color-wood-400: #D7CCC8; /* Soft Beige */
+  --color-wood-200: #EADDCA; /* Elegant Sand Border */
+  --color-wood-100: #F5EFE6; /* Cozy Cream Accent */
+  --color-wood-50: #FDFBF7;  /* Premium Linen/Lighter Cream Background */
+  
+  /* Accent Green (Sage Green) */
+  --color-forest-950: #1B2E1E;
+  --color-forest-900: #2C3E2B;
+  --color-forest-800: #3E513D;
+  --color-forest-700: #516550;
+  --color-forest-600: #6B816A;
+  --color-forest-500: #8DA47E; /* Sage Accent Green */
+  --color-forest-200: #D4DCD2;
+  --color-forest-50: #F5F7F4;
+}
+
+body {
+  background-color: var(--color-wood-50);
+  color: var(--color-wood-950);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-wood-50);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-wood-200);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-wood-500);
+}
+
+/* Scroll reveal helper */
+.scroll-reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+.scroll-reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Premium micro-interactions matching Bold Typography editorial feel */
+.wood-btn-primary {
+  background-color: var(--color-wood-950);
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 0.75rem;
+  padding: 0.875rem 1.75rem;
+  border-radius: 0.125rem; /* Modern sharp editorial corners */
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.wood-btn-primary:hover {
+  background-color: var(--color-wood-900);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(62, 39, 35, 0.15);
+}
+
+.wood-btn-secondary {
+  border: 1px solid var(--color-wood-950);
+  background-color: transparent;
+  color: var(--color-wood-950);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 0.75rem;
+  padding: 0.875rem 1.75rem;
+  border-radius: 0.125rem; /* Modern sharp editorial corners */
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.wood-btn-secondary:hover {
+  background-color: var(--color-wood-100);
+  border-color: var(--color-wood-950);
+}
+
+.wood-card {
+  background-color: #ffffff;
+  border: 1px solid var(--color-wood-200);
+  border-radius: 0.125rem; /* Sharp, handcrafted, modern feel instead of round circles */
+  overflow: hidden;
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.wood-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 32px rgba(62, 39, 35, 0.06);
+}

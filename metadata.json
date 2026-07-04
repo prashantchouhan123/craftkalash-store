@@ -1,0 +1,6 @@
+{
+  "name": "Handcrafted Wooden Toys E-Commerce",
+  "description": "A premium, fully-responsive e-commerce platform for handcrafted, eco-friendly, and child-safe wooden toys, featuring an admin panel, cart, checkout, order history, and Supabase integration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
