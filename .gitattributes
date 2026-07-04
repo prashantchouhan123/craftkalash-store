@@ -1,0 +1,22 @@
+# Treat all image formats as binary to prevent Git from converting line endings or treating them as text
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.gif binary
+*.webp binary
+*.ico binary
+
+# Treat other assets as binary
+*.pdf binary
+*.zip binary
+*.tar.gz binary
+
+# Ensure text files use LF line endings
+*.ts text eol=lf
+*.tsx text eol=lf
+*.js text eol=lf
+*.jsx text eol=lf
+*.json text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.md text eol=lf
