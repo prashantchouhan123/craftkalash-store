@@ -35,7 +35,7 @@ export const Navbar: React.FC = () => {
           {/* Logo Section */}
           <Link to="/" className="flex items-center gap-3 group">
             <img 
-              src="/src/assets/images/craft_kalash_logo_1782992126419.jpg" 
+              src="/assets/images/craft_kalash_logo_1782992126419.jpg" 
               alt="CraftKalash Logo" 
               className="h-12 w-12 object-contain rounded-lg border border-wood-100"
               referrerPolicy="no-referrer"

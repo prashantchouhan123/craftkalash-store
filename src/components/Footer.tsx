@@ -51,7 +51,7 @@ export const Footer: React.FC = () => {
         <div className="space-y-4">
           <div className="flex items-center gap-3">
             <img 
-              src="/src/assets/images/craft_kalash_logo_1782992126419.jpg" 
+              src="/assets/images/craft_kalash_logo_1782992126419.jpg" 
               alt="CraftKalash Logo" 
               className="h-12 w-12 object-contain rounded-lg border border-wood-800"
               referrerPolicy="no-referrer"

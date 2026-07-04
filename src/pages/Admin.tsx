@@ -381,7 +381,7 @@ export const Admin: React.FC = () => {
         <div className="mb-8 flex flex-col sm:flex-row justify-between items-center gap-6 text-center sm:text-left bg-white border border-wood-200 p-6 rounded-3xl shadow-2xs">
           <div className="flex flex-col sm:flex-row items-center gap-4">
             <img 
-              src="/src/assets/images/craft_kalash_logo_1782992126419.jpg" 
+              src="/assets/images/craft_kalash_logo_1782992126419.jpg" 
               alt="CraftKalash Logo" 
               className="h-16 w-16 object-contain rounded-xl border border-wood-200 shadow-2xs"
               referrerPolicy="no-referrer"

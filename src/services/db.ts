@@ -24,56 +24,56 @@ const SEED_CATEGORIES: Category[] = [
     name: 'Stacking & Sorting',
     slug: 'stacking-sorting',
     description: 'Montessori-inspired wooden toys designed to develop fine motor skills, coordination, and geometric understanding.',
-    image_url: '/src/assets/images/smart_puzzle_banner_1782961608852.jpg'
+    image_url: '/assets/images/smart_puzzle_banner_1782961608852.jpg'
   },
   {
     id: 'cat-2',
     name: 'Puzzles & Blocks',
     slug: 'puzzles-blocks',
     description: 'High-quality building blocks and wooden puzzles crafted from diverse wood grains to spark structural creativity.',
-    image_url: '/src/assets/images/three_puzzles_banner_1782961574854.jpg'
+    image_url: '/assets/images/three_puzzles_banner_1782961574854.jpg'
   },
   {
     id: 'cat-3',
     name: 'Vehicles & Pull Toys',
     slug: 'vehicles-pull-toys',
     description: 'Smooth-rolling wooden cars, tanks, and trucks with safe non-toxic finishes.',
-    image_url: '/src/assets/images/wooden_dump_truck_banner_1782961161981.jpg'
+    image_url: '/assets/images/wooden_dump_truck_banner_1782961161981.jpg'
   },
   {
     id: 'cat-4',
     name: 'Imaginative Play',
     slug: 'imaginative-play',
     description: 'Play kitchens, custom wooden tools, and organic play sets to nurture storytelling and open-ended play.',
-    image_url: '/src/assets/images/mini_kitchen_set_banner_1782961520615.jpg'
+    image_url: '/assets/images/mini_kitchen_set_banner_1782961520615.jpg'
   },
   {
     id: 'cat-5',
     name: 'Baby & Toddler',
     slug: 'baby-toddler',
     description: 'Traditional wooden baby walkers, baby chowkis, and infant motor skill developmental aids.',
-    image_url: '/src/assets/images/baby_walker_banner_1_1782961533434.jpg'
+    image_url: '/assets/images/baby_walker_banner_1_1782961533434.jpg'
   },
   {
     id: 'cat-8',
     name: 'Baby Walkers',
     slug: 'baby-walkers',
     description: 'Traditional and handcrafted wooden push walkers for your baby\'s first steps.',
-    image_url: '/src/assets/images/traditional_baby_walker_multicolor_1782993367940.jpg'
+    image_url: '/assets/images/traditional_baby_walker_multicolor_1782993367940.jpg'
   },
   {
     id: 'cat-6',
     name: 'Wellness & Accessories',
     slug: 'wellness-accessories',
     description: 'Handcrafted wellness tools and natural seed wood drinking vessels for clean daily routines.',
-    image_url: '/src/assets/images/seed_wood_glass_banner_1782961555398.jpg'
+    image_url: '/assets/images/seed_wood_glass_banner_1782961555398.jpg'
   },
   {
     id: 'cat-7',
     name: 'Traditional Home Decor',
     slug: 'traditional-decor',
     description: 'Artisanal hand-painted doll couples, miniature charpais, and hand-woven home accents.',
-    image_url: '/src/assets/images/wooden_couple_banner_1782961619283.jpg'
+    image_url: '/assets/images/wooden_couple_banner_1782961619283.jpg'
   }
 ];
 
@@ -86,7 +86,7 @@ const SEED_PRODUCTS: Product[] = [
     price: 89.99,
     discount_price: 79.99,
     images: [
-      '/src/assets/images/baby_walker_user_image_1782991246771.jpg'
+      '/assets/images/baby_walker_user_image_1782991246771.jpg'
     ],
     description: 'A gorgeous, premium handcrafted wooden baby walker designed with exceptional stability and a sturdy base to guide your baby\'s first steps with safety and confidence. Embellished with beautiful, gentle-ringing rattle bells to delight and encourage their physical growth and balancing milestones.',
     features: [
@@ -116,7 +116,7 @@ const SEED_PRODUCTS: Product[] = [
     price: 49.99,
     discount_price: 44.99,
     images: [
-      '/src/assets/images/wooden_dump_truck_banner_1782961161981.jpg'
+      '/assets/images/wooden_dump_truck_banner_1782961161981.jpg'
     ],
     description: 'A premium, handcrafted wooden dump truck featuring rich natural wood grains, a yellow cabin, adjustable dump bed, and dark brown wooden wheels. Smoothly sanded and child-safe for imaginative play.',
     features: [
@@ -146,7 +146,7 @@ const SEED_PRODUCTS: Product[] = [
     price: 39.99,
     discount_price: 34.99,
     images: [
-      '/src/assets/images/mini_kitchen_set_banner_1782961520615.jpg'
+      '/assets/images/mini_kitchen_set_banner_1782961520615.jpg'
     ],
     description: 'An elegant, colorful pretend-play kitchen set featuring miniature wooden pots with yellow, orange, blue, and red paint, jars with lids, a rolling pin, a rolling cylinder, and a traditional mortar and pestle.',
     features: [
@@ -176,7 +176,7 @@ const SEED_PRODUCTS: Product[] = [
     price: 39.99,
     discount_price: 34.99,
     images: [
-      '/src/assets/images/miniature_farm_tractor_banner_jpg_1782965558478.jpg'
+      '/assets/images/miniature_farm_tractor_banner_jpg_1782965558478.jpg'
     ],
     description: 'A beautiful, traditional wooden farm tractor set featuring a detachable cargo trailer. Meticulously handcrafted from premium wood with vibrant red wheel accents, designed to promote role play fun and fine motor skills.',
     features: [
@@ -206,7 +206,7 @@ const SEED_PRODUCTS: Product[] = [
     price: 89.99,
     discount_price: 79.99,
     images: [
-      '/src/assets/images/baby_walker_banner_3_1782961661035.jpg'
+      '/assets/images/baby_walker_banner_3_1782961661035.jpg'
     ],
     description: 'An authentic Channapatna handcrafted wooden baby walker designed with exceptional stability and a sturdy base to guide your baby\'s first steps with safety and confidence. Embellished with beautiful, gentle-ringing rattle bells to delight and encourage their physical growth and balancing milestones.',
     features: [
@@ -236,7 +236,7 @@ const SEED_PRODUCTS: Product[] = [
     price: 89.99,
     discount_price: 79.99,
     images: [
-      '/src/assets/images/traditional_baby_walker_multicolor_1782993367940.jpg'
+      '/assets/images/traditional_baby_walker_multicolor_1782993367940.jpg'
     ],
     description: 'An authentic CraftKalash traditional wooden baby walker designed with exceptional stability and child-safe materials to help your baby take their first steps with safety and confidence. Embellished with beautiful, gentle-ringing rattle bells to encourage physical development and motor skills.',
     features: [
@@ -266,7 +266,7 @@ const SEED_PRODUCTS: Product[] = [
     price: 89.99,
     discount_price: 79.99,
     images: [
-      '/src/assets/images/traditional_baby_walker_1782992339503.jpg'
+      '/assets/images/traditional_baby_walker_1782992339503.jpg'
     ],
     description: 'An authentic Channapatna handcrafted wooden baby walker (push walker) designed with exceptional stability and a sturdy base to guide your baby\'s first steps with safety and confidence. Embellished with beautiful, gentle-ringing rattle bells to delight and encourage their physical growth and balancing milestones.',
     features: [
@@ -296,7 +296,7 @@ const SEED_PRODUCTS: Product[] = [
     price: 29.99,
     discount_price: 24.99,
     images: [
-      '/src/assets/images/smart_puzzle_banner_1782961608852.jpg'
+      '/assets/images/smart_puzzle_banner_1782961608852.jpg'
     ],
     description: 'A beautifully crafted geometric sorting board complete with a red tangram triangle, a yellow circle, a blue heart, a green pentagon, and multi-colored interlocking blocks showing clear organic wood grains.',
     features: [
@@ -324,7 +324,7 @@ const SEED_PRODUCTS: Product[] = [
     category_name: 'Traditional Home Decor',
     price: 19.99,
     images: [
-      '/src/assets/images/wooden_couple_banner_1782961619283.jpg'
+      '/assets/images/wooden_couple_banner_1782961619283.jpg'
     ],
     description: 'A magnificent pair of traditional Indian handcrafted couple dolls, hand-painted with bright organic red, yellow, and green colors. Perfect as cultural home decor accents or heirloom gifts.',
     features: [
@@ -351,7 +351,7 @@ const SEED_PRODUCTS: Product[] = [
     category_name: 'Traditional Home Decor',
     price: 15.99,
     images: [
-      '/src/assets/images/mini_charpai_banner_1782961629697.jpg'
+      '/assets/images/mini_charpai_banner_1782961629697.jpg'
     ],
     description: 'A miniature handcrafted wooden cot (charpai) with beautifully turned dark wood legs and high-contrast, sturdy pink and yellow hand-woven ropes. Commonly used as a peaceful rest bed for Ladoo Gopal (deity) idols.',
     features: [
@@ -379,7 +379,7 @@ const SEED_PRODUCTS: Product[] = [
     price: 32.99,
     discount_price: 27.99,
     images: [
-      '/src/assets/images/baby_chowki_banner_1782961640075.jpg'
+      '/assets/images/baby_chowki_banner_1782961640075.jpg'
     ],
     description: 'A small traditional Indian low stool (baby chowki) handcrafted with solid dark-polished wooden legs and a vibrant pink and green tightly woven comfortable seat. Multi-functional for seating or display.',
     features: [
@@ -407,7 +407,7 @@ const SEED_PRODUCTS: Product[] = [
     category_name: 'Vehicles & Pull Toys',
     price: 42.99,
     images: [
-      '/src/assets/images/wooden_tank_banner_1782961651387.jpg'
+      '/assets/images/wooden_tank_banner_1782961651387.jpg'
     ],
     description: 'A spectacular handcrafted wooden toy tank featuring a long adjustable gun barrel, smooth rolling wooden wheels, and high-contrast natural pine wood grain patterns. Completely static-free and non-electric.',
     features: [
@@ -436,7 +436,7 @@ const SEED_PRODUCTS: Product[] = [
     price: 24.99,
     discount_price: 19.99,
     images: [
-      '/src/assets/images/seed_wood_glass_banner_1782961555398.jpg'
+      '/assets/images/seed_wood_glass_banner_1782961555398.jpg'
     ],
     description: 'A beautifully polished wellness tumbler crafted from authentic seed wood, showcasing its rich natural grain. Traditionally known to improve metabolism and boost immunity when drinking water is stored overnight.',
     features: [
@@ -493,84 +493,84 @@ const SEED_GALLERY: GalleryItem[] = [
   {
     id: 'gal-amazon-banner-1',
     title: 'Amazon A+ Listing: Classic Handcrafted Wooden Dump Truck',
-    image_url: '/src/assets/images/wooden_dump_truck_banner_1782961161981.jpg',
+    image_url: '/assets/images/wooden_dump_truck_banner_1782961161981.jpg',
     category: 'Amazon Banners',
     description: 'A premium, professional 1:1 Amazon listing infographic banner for our Handcrafted Wooden Dump Truck. Places the actual toy prominently with elegant typography and child-safety benefit badges.'
   },
   {
     id: 'gal-amazon-banner-2',
     title: 'Amazon A+ Listing: Mini Kitchen Wooden Set',
-    image_url: '/src/assets/images/mini_kitchen_set_banner_1782961520615.jpg',
+    image_url: '/assets/images/mini_kitchen_set_banner_1782961520615.jpg',
     category: 'Amazon Banners',
     description: 'Miniature colorful wooden kitchen pots, pans, rolling pin, and mortar pestle arranged beautifully with high-end typography highlighting creativity and fine motor skill development.'
   },
   {
     id: 'gal-amazon-banner-5',
     title: 'Amazon A+ Listing: NATURE\'S GIFT Seed Wood Glass',
-    image_url: '/src/assets/images/seed_wood_glass_banner_1782961555398.jpg',
+    image_url: '/assets/images/seed_wood_glass_banner_1782961555398.jpg',
     category: 'Amazon Banners',
     description: 'Organic polished seed wood wellness tumbler showcasing its authentic natural grain. Promotes natural metabolism, metabolism boosting, and immunity with a serene forest backdrop.'
   },
   {
     id: 'gal-amazon-banner-6',
     title: 'Amazon A+ Listing: Channapatna Traditional Wooden Baby Walker',
-    image_url: '/src/assets/images/baby_walker_banner_3_1782961661035.jpg',
+    image_url: '/assets/images/baby_walker_banner_3_1782961661035.jpg',
     category: 'Amazon Banners',
     description: 'Traditional handcrafted wooden baby walker with gentle-ringing rattle bells, designed to help babies take their first steps with safety and confidence.'
   },
   {
     id: 'gal-amazon-banner-7',
     title: 'Amazon A+ Listing: CraftKalash Handcrafted Traditional Wooden Baby Walker',
-    image_url: '/src/assets/images/traditional_baby_walker_multicolor_1782993367940.jpg',
+    image_url: '/assets/images/traditional_baby_walker_multicolor_1782993367940.jpg',
     category: 'Amazon Banners',
     description: 'Beautiful traditional handcrafted Channapatna wooden baby walker featuring colorful vegetable-dye lacquer finishing and soft-sounding brass rattles.'
   },
   {
     id: 'gal-amazon-banner-8',
     title: 'Amazon A+ Listing: Traditional Wooden Baby Walker',
-    image_url: '/src/assets/images/traditional_baby_walker_1782992339503.jpg',
+    image_url: '/assets/images/traditional_baby_walker_1782992339503.jpg',
     category: 'Amazon Banners',
     description: 'Beautiful traditional handcrafted Channapatna wooden baby walker featuring colorful lacquer finishing and soft-sounding brass rattles.'
   },
   {
     id: 'gal-amazon-banner-9',
     title: 'Amazon A+ Listing: Learn Play Grow Smart Puzzle Board',
-    image_url: '/src/assets/images/smart_puzzle_banner_1782961608852.jpg',
+    image_url: '/assets/images/smart_puzzle_banner_1782961608852.jpg',
     category: 'Amazon Banners',
     description: 'Premium wood geometric tangram sorting puzzle showcasing vivid child-safe primary colors and solid wood build. Details fine motor skill and problem solving benefits.'
   },
   {
     id: 'gal-amazon-banner-10',
     title: 'Amazon A+ Listing: Traditional Handcrafted Wooden Couple Dolls',
-    image_url: '/src/assets/images/wooden_couple_banner_1782961619283.jpg',
+    image_url: '/assets/images/wooden_couple_banner_1782961619283.jpg',
     category: 'Amazon Banners',
     description: 'Artisanal Indian hand-painted wooden dolls in rich red, yellow, and green tones, styled beautifully on a modern minimal display pedestal.'
   },
   {
     id: 'gal-amazon-banner-11',
     title: 'Amazon A+ Listing: Handcrafted Mini Charpai Bed',
-    image_url: '/src/assets/images/mini_charpai_banner_1782961629697.jpg',
+    image_url: '/assets/images/mini_charpai_banner_1782961629697.jpg',
     category: 'Amazon Banners',
     description: 'Miniature wooden woven bed with vibrant pink and yellow threads holding a brass Ladoo Gopal deity, creating a divine, peaceful, and warm rest setup.'
   },
   {
     id: 'gal-amazon-banner-12',
     title: 'Amazon A+ Listing: CraftKalash Handcrafted Wooden Baby Chowki',
-    image_url: '/src/assets/images/baby_chowki_banner_1782961640075.jpg',
+    image_url: '/assets/images/baby_chowki_banner_1782961640075.jpg',
     category: 'Amazon Banners',
     description: 'Small woven low-lying wooden stool for children featuring eco-friendly cotton threads and solid wood legs, styled in a warm family living room.'
   },
   {
     id: 'gal-amazon-banner-13',
     title: 'Amazon A+ Listing: Handcrafted Wooden Army Tank Toy',
-    image_url: '/src/assets/images/wooden_tank_banner_1782961651387.jpg',
+    image_url: '/assets/images/wooden_tank_banner_1782961651387.jpg',
     category: 'Amazon Banners',
     description: 'Solid natural pine wood toy tank with a long cannon barrel, highlighting pristine wood grain textures and eco-friendly child-safe artisan work.'
   },
   {
     id: 'gal-amazon-banner-16',
     title: 'Amazon A+ Listing: Miniature Farm Tractor Set',
-    image_url: '/src/assets/images/miniature_farm_tractor_banner_jpg_1782965558478.jpg',
+    image_url: '/assets/images/miniature_farm_tractor_banner_jpg_1782965558478.jpg',
     category: 'Amazon Banners',
     description: 'A premium, professional 1:1 Amazon listing infographic banner for our Miniature Farm Tractor Set. Highlights its eco-friendly wood craftsmanship, hand-eye coordination benefits, and detachable cargo trailer.'
   },
